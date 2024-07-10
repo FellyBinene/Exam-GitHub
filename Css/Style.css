@@ -1,0 +1,206 @@
+body{
+    font-family: 'century gothic', calibri, serif;
+    font-size: 13px;
+    margin: 0%;
+    padding: 0%;
+    border-top: 5px solid #ff00958f;
+}
+.wel{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    float: right;
+    padding: 4px;
+    width: auto;
+    margin-right: 2%;
+    border: 1px solid #201f1d;
+    background-color: #201f1d;
+    color: #fff;
+    border-radius: 90px ;
+}
+.JBD {
+    width: 33%;
+    border-radius: 50%;
+    border-top-left-radius: 0%;
+    margin: 2% 3% 2% 12%;
+    box-shadow: 0px 3px 15px 4px black;
+    position: absolute;
+}
+#table{
+    display: table;
+    margin: 0 auto;
+}
+#table2{
+    padding-top: 36%;
+}
+header{
+    height: 100%;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    text-transform: capitalize;
+    margin: 14% 50%;
+}
+nav{
+    width: 100%;
+    background-color: #201f1d;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 30px; 
+}
+footer{
+    background-color: #c4c4c4;
+    border-top: 5px solid #ff9901b4;
+    height: 50px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.acc:hover{
+    border-top: 5px solid orange;
+    background-color: #ffa50020 ;
+}
+.pre:hover{
+    border-top: 5px solid #09ff00;
+    background-color: #ffff0015;
+}
+.exp:hover{
+    border-top: 5px solid rgb(255, 0, 0);
+    background-color: #ffa50020 ;
+}
+.loi:hover{
+    border-top: 5px solid #00eeff;
+    background-color: #ffff0015;
+}
+.con:hover{
+    border-top: 5px solid rgb(17, 0, 255);
+    background-color: #ffa50020 ;
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+@media screen and (max-width: 750px) {
+    header{
+        height: 50%;
+    }
+    .wel{
+        font-size: 5px ;
+        width: 10%;
+    }
+    h1{
+        font-size: 33px;
+        margin: 14% 50%;
+    }
+    #table2{
+        padding-top: 36%;
+    }
+    nav a{
+        font-size: 8px;
+        padding: 5px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+    
+}
+
+@media screen and (max-width: 1025px) {
+    nav a{
+        font-size: 14px;
+        padding: 20px;
+    }
+    nav li:hover a{
+        padding: 15px 20px 20px 20px;
+    }
+    .wel{
+        font-size: 12px ;
+        width: 10%;
+    }
+    h1{
+        margin: 14% 50%;  
+    }
+}
+
+@media screen and (max-width: 898px) {
+    nav a{
+        font-size: 13px;
+        padding: 15px;
+    }
+    nav li:hover a{
+        padding: 10px 15px 15px 15px;
+    }
+    #table2{
+        padding-top: 36%;
+    }
+    h1{
+        margin: 14% 50%;  
+    }
+}
+@media screen and (max-width: 660px) {
+    nav a{
+        font-size: 11px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+    .wel{
+        font-size: 10px ;
+        width: 12%;
+    }
+    h1{
+        margin: 14% 50%;  
+    }
+    #table2{
+        padding-top: 36%;
+    }
+    footer{
+        border-top: 4px solid #AAA;
+        height: 45px;
+        padding-top: 0px;
+    }
+
+    
+}
+@media screen and (max-width: 571px) {
+    nav a{
+        font-size: 10px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+    .wel{
+        font-size: 7px ;
+        width: 10%;
+    }
+    h1{
+        margin: 14% 50%;  
+    }
+    .JBD{
+        margin: 7% 3% 2% 5%;
+    }
+    #table2{
+        padding-top: 38%;
+
+    }
+}

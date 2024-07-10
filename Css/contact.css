@@ -1,0 +1,38 @@
+
+h2{
+	text-align: left;
+}
+dd{
+	font-size: 40px;
+	text-align: justify;
+}
+h2{
+	font-size: 60px;
+	font-family: Berlin Sans FB Demi;
+}
+dt{
+	font-size: 45px;
+}
+a{
+	color: coral;
+	font-size: 20px;
+}
+li{
+	color: black;
+	font-size: 30px;
+}
+ul{
+	border-radius: 45px;
+	box-shadow: 4px 3px 15px black;
+	background-color: black;
+}
+ol{
+	color: black;
+}
+b{
+	color: white;
+}
+i{
+	color: white;
+	font-size: 30px;
+}

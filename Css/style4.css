@@ -1,0 +1,61 @@
+
+#corps{
+    height: 500px;
+}
+
+#corps #div_home{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+#corps .form_ins{
+    box-shadow: 0px 0px 3px 0px rgb(173, 173, 214);
+    width: 250px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    padding: 30px;
+}
+
+#corps .form_ins div{
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#corps .form_ins div input{
+    width: 95%;
+    min-height: 40px;
+    padding: 15px;
+    margin-top: -27px;
+    border: 1px solid rgb(190, 30, 156);
+    border-radius: 8px;
+}
+
+
+#corps .form_ins div select{
+    border-radius: 8px;
+    margin-top: -27px;
+    width: 95%;
+    min-height: 40px;
+    padding: 15px;
+    border: 1px solid rgb(41, 132, 250);
+}
+
+#corps .form_ins #submit{
+    padding: 10px;
+    background-color: rgb(41, 132, 250);
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(41, 132, 250);
+    cursor: pointer;
+    width: 100%;
+    font-family: impact;
+    border-radius: 8px;
+}
+#corps .form_ins #submit:hover{
+    background-color: white;
+    color: rgb(41, 132, 250);
+}
+
